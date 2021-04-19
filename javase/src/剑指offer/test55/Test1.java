@@ -16,7 +16,7 @@ public class Test1 {
     //按层来遍历二叉树
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
-        List<TreeNode> queue = new LinkedList<TreeNode>();
+        List<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         List<TreeNode> tmp;
         int res = 0;
