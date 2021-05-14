@@ -21,14 +21,23 @@ package 力扣.Test12;
  给定一个整数，将其转为罗马数字。输入确保在 1 到 3999 的范围内。
 */
 public class Test {
+    int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    String[] symbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
     public String intToRoman(int num) {
-        int I=0;
-        int V=0;
-        int X=0;
-        int L=0;
-        int C=0;
-        int D=0;
-        int M=0;
-    return "";
+        StringBuffer roman = new StringBuffer();
+        for (int i = 0; i < values.length; ++i) {
+            int value = values[i];
+            String symbol = symbols[i];
+            while (num >= value) {
+                num -= value;
+                roman.append(symbol);
+            }
+            if (num == 0) {
+                break;
+            }
+        }
+        return roman.toString();
     }
+
 }
