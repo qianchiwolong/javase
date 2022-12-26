@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T06:37:18.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ntqC0be6OtqLBU_JQPtf" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T09:17:25.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="O0CgS1bYPQryRVJVPAvi" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1312" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1312" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,7 +149,7 @@
         <mxCell id="e6M2gJVlcIB2rnrAK9i--17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="e6M2gJVlcIB2rnrAK9i--16">
           <mxGeometry x="45" y="80" width="10" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="e6M2gJVlcIB2rnrAK9i--18" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.48;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6M2gJVlcIB2rnrAK9i--16" target="e6M2gJVlcIB2rnrAK9i--19">
+        <mxCell id="e6M2gJVlcIB2rnrAK9i--18" value="ticketDetailParam, &lt;br&gt;purchasePrice, &lt;br&gt;ticketDetailDO" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.48;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="e6M2gJVlcIB2rnrAK9i--16" target="e6M2gJVlcIB2rnrAK9i--19">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="45" y="420" as="sourcePoint" />
             <mxPoint x="125" y="420" as="targetPoint" />
